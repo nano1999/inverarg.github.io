@@ -1,84 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head><script type="text/javascript" async=true >
-    var elem = document.createElement('script');
-    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
-    elem.async = true;
-    elem.type = "text/javascript";
-    var scpt = document.getElementsByTagName('script')[0];
-    scpt.parentNode.insertBefore(elem, scpt);
-    (function() {
-    var gdprAppliesGlobally = false;
-    function addFrame() {
-        if (!window.frames['__cmpLocator']) {
-        if (document.body) {
-            var body = document.body,
-                iframe = document.createElement('iframe');
-            iframe.style = 'display:none';
-            iframe.name = '__cmpLocator';
-            body.appendChild(iframe);
-        } else {
-            setTimeout(addFrame, 5);
-        }
-        }
-    }
-    addFrame();
-    function cmpMsgHandler(event) {
-        var msgIsString = typeof event.data === "string";
-        var json;
-        if(msgIsString) {
-        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
-        } else {
-        json = event.data;
-        }
-        if (json.__cmpCall) {
-        var i = json.__cmpCall;
-        window.__cmp(i.command, i.parameter, function(retValue, success) {
-            var returnMsg = {"__cmpReturn": {
-            "returnValue": retValue,
-            "success": success,
-            "callId": i.callId
-            }};
-            event.source.postMessage(msgIsString ?
-            JSON.stringify(returnMsg) : returnMsg, '*');
-        });
-        }
-    }
-    window.__cmp = function (c) {
-        var b = arguments;
-        if (!b.length) {
-        return __cmp.a;
-        }
-        else if (b[0] === 'ping') {
-        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
-            "cmpLoaded": false}, true);
-        } else if (c == '__cmp')
-        return false;
-        else {
-        if (typeof __cmp.a === 'undefined') {
-            __cmp.a = [];
-        }
-        __cmp.a.push([].slice.apply(b));
-        }
-    }
-    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
-    window.__cmp.msgHandler = cmpMsgHandler;
-    if (window.addEventListener) {
-        window.addEventListener('message', cmpMsgHandler, false);
-    }
-    else {
-        window.attachEvent('onmessage', cmpMsgHandler);
-    }
-    })();
-    window.__cmp('init', {
-        'Language': 'es',
-    'Initial Screen Body Text Option': 1,
-    'Publisher Name': 'Moneytizer',
-    'Default Value for Toggles': 'off',
-    'UI Layout': 'banner',
-    'No Option': false,
-    });
-</script>
+<head>
+  
     <style>
         .qc-cmp-button,
         .qc-cmp-button.qc-cmp-secondary-button:hover {
@@ -145,10 +68,11 @@
   }
     </style>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!--cookie-->
-  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","content":{"href":"https://inverarg.com/cookies.html","message":"Este sitio web usa cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web.\n","link":"Más Información","button":"Permitir cookies"}})});</script>
-<meta name="google-site-verification" content="EoxNv5iPwP5_ryg0gRlRbbsVa9BmUptLbuSqmovEhow" />
+
+
+
+
+ <meta name="google-site-verification" content="uoKpmR5EemJ_xqSzkHdGpFvOq9UM-qEXUB8FTrwDJmc" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -156,7 +80,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>🤑 ¿Que Son Los Fondos Comunes de Inversion Y Como Ganar Dinero Con Ellos?</title>
+  <title>🤑 InverArg: Invertir En Argentina, Ganá DINERO Desde Tu CASA</title>
   <!--<description>¿Querés aprender a invertir con Plazos Fijos?  🔥Acá te enseñamos todo🔥. Aprendé a ganar plata sin tener que trabajar horas extras, desde tu casa</description>-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet"> 
@@ -167,7 +91,6 @@
   <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
- 
 </head>
 
 <body>
@@ -375,16 +298,119 @@
     <div id="43219-6"><script src="//ads.themoneytizer.com/s/gen.js?type=6"></script><script src="//ads.themoneytizer.com/s/requestform.js?siteId=43219&formatId=6"></script></div>
   </footer>
   <div id="43219-28"><script src="//ads.themoneytizer.com/s/gen.js?type=28"></script><script src="//ads.themoneytizer.com/s/requestform.js?siteId=43219&formatId=28"></script></div>
-  <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script async="async" type="text/javascript" src="js/mousescroll.js"></script>
+  <script async="async" type="text/javascript" src="js/smoothscroll.js"></script>
+  <script async="async" type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script async="async" type="text/javascript" src="js/lightbox.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-145372197-1"></script>
+<script async="async">
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5465834262382644",
+    enable_page_level_ads: true
+  });
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145372197-1');
+
+<script type="text/javascript" async=true >
+    var elem = document.createElement('script');
+    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    (function() {
+    var gdprAppliesGlobally = false;
+    function addFrame() {
+        if (!window.frames['__cmpLocator']) {
+        if (document.body) {
+            var body = document.body,
+                iframe = document.createElement('iframe');
+            iframe.style = 'display:none';
+            iframe.name = '__cmpLocator';
+            body.appendChild(iframe);
+        } else {
+            setTimeout(addFrame, 5);
+        }
+        }
+    }
+    addFrame();
+    function cmpMsgHandler(event) {
+        var msgIsString = typeof event.data === "string";
+        var json;
+        if(msgIsString) {
+        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+        } else {
+        json = event.data;
+        }
+        if (json.__cmpCall) {
+        var i = json.__cmpCall;
+        window.__cmp(i.command, i.parameter, function(retValue, success) {
+            var returnMsg = {"__cmpReturn": {
+            "returnValue": retValue,
+            "success": success,
+            "callId": i.callId
+            }};
+            event.source.postMessage(msgIsString ?
+            JSON.stringify(returnMsg) : returnMsg, '*');
+        });
+        }
+    }
+    window.__cmp = function (c) {
+        var b = arguments;
+        if (!b.length) {
+        return __cmp.a;
+        }
+        else if (b[0] === 'ping') {
+        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+            "cmpLoaded": false}, true);
+        } else if (c == '__cmp')
+        return false;
+        else {
+        if (typeof __cmp.a === 'undefined') {
+            __cmp.a = [];
+        }
+        __cmp.a.push([].slice.apply(b));
+        }
+    }
+    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+    window.__cmp.msgHandler = cmpMsgHandler;
+    if (window.addEventListener) {
+        window.addEventListener('message', cmpMsgHandler, false);
+    }
+    else {
+        window.attachEvent('onmessage', cmpMsgHandler);
+    }
+    })();
+    window.__cmp('init', {
+        'Language': 'es',
+    'Initial Screen Body Text Option': 1,
+    'Publisher Name': 'Moneytizer',
+    'Default Value for Toggles': 'off',
+    'UI Layout': 'banner',
+    'No Option': false,
+    });
+</script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5465834262382644",
+    enable_page_level_ads: true
+  });
+</script>
+  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","content":{"href":"https://inverarg.com/cookies.html","message":"Este sitio web usa cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web.\n","link":"Más Información","button":"Permitir cookies"}})});</script>
 </body>
 </html>
