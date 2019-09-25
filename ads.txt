@@ -1,3 +1,4 @@
+google.com, pub-5465834262382644, DIRECT, f08c47fec0942fa0
 smartadserver.com, 1097, RESELLER
 indexexchange.com, 179394, RESELLER
 contextweb.com, 560288, RESELLER
